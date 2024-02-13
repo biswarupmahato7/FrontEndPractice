@@ -1,0 +1,31 @@
+body{
+    background: #09c4d1;
+    height: 100vh;
+    width: 100vh;
+}
+
+#section{
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+}
+
+#faq{
+    text-align: center;
+    
+}
+
+.det{
+    margin: 4px ;
+}
+
+.sum{
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 6px;
+    
+
+}

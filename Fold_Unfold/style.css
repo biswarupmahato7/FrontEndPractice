@@ -1,0 +1,26 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fold-img {
+    width: 500px;
+    aspect-ratio: 1.92;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+span {
+    flex: 1;
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    transition: flex 0.5s ease-in-out;
+}
+
+.fold-img:hover span {
+    flex: 0;
+}
