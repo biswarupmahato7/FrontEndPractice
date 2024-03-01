@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.back-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(netFlix.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+ .blur{
+    width: 100%;
+    height: 100%;
+    background: linear-Gradient( to top,
+    rgba(0,0,0,0.8) 0%,
+    rgba(0,0,0,0) 50%,
+    rgba(0,0,0,0.8) 100%);
+}
